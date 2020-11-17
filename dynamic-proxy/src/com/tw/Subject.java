@@ -1,7 +1,7 @@
 package com.tw;
 
 public interface Subject {
-    void hello(String str);
+    void hello(String name);
 
     String bye();
 }

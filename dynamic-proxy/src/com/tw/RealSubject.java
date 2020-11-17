@@ -2,8 +2,8 @@ package com.tw;
 
 public class RealSubject implements Subject {
     @Override
-    public void hello(String str) {
-        System.out.println("Hello  " + str);
+    public void hello(String name) {
+        System.out.println("Hello  " + name);
     }
 
     @Override
